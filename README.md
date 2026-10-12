@@ -1,39 +1,37 @@
-# EM DESENVOLVIMENTO 🛠🔨🔧
+# Interface web inspirada no Spotify
 
-# Clone Spotify 🎵
+Projeto de estudo de frontend: uma página estática com apresentação, seção de recursos e cards de planos. Construído com HTML e CSS para praticar layout e estilização.
 
-## Descrição
-Este projeto é uma **replicação da interface do Spotify**, desenvolvido com HTML, CSS e JavaScript. O objetivo principal é **aprimorar minhas habilidades com display Flex, posicionamento de elementos e design responsivo**.  
+## 🚀 Executar
 
-O projeto não é funcional como o Spotify real, mas sim uma **versão visual para aprendizado e prática de front-end**.
+```bash
+git clone https://github.com/daviddevdias/web-spotify-clone.git
+cd web-spotify-clone
+```
 
----
+Abra `index.html` no navegador. Não há dependências npm nem etapa de compilação.
 
-## Funcionalidades
-- Layout responsivo com Flexbox.
-- Seções principais: Hero, Como funciona e Planos.
-- Botões interativos com hover e efeitos de click.
-- Cards de planos (Gratuito e Premium).
-- Uso de fontes modernas: Montserrat, Roboto e Nunito.
-- Imagens e ícones para ilustrar playlists, playlists personalizadas e uso em qualquer dispositivo.
+Para servir localmente com Python:
 
----
+```bash
+python -m http.server 8000
+```
 
-## Tecnologias utilizadas
-- HTML5
-- CSS3
-- JavaScript (opcional para interatividade)
-- Google Fonts (Montserrat, Roboto, Nunito)
-- Ícones do [Flaticon](https://www.flaticon.com/)
+Acesse `http://localhost:8000`.
 
----
+## 📁 Arquivos
 
-## Pré-visualização
-![Preview](https://cdn-icons-png.flaticon.com/512/2111/2111624.png)  
+- `index.html`: estrutura da página.
+- `styles.css`: estilos.
+- `img/`: imagens locais.
+- `Automação.js`: arquivo vazio, sem comportamento implementado.
 
----
+## Escopo
 
-## Como executar o projeto
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/davidalbuquerquedias2/Spotify-Clone.git
+A busca, os botões de assinatura e download são elementos visuais. Não há reprodução de músicas, autenticação, pagamento ou integração com a API do Spotify.
+
+A página usa Google Fonts e ícones externos do Flaticon; esses recursos dependem de conexão com a internet. Marcas e imagens pertencem aos respectivos titulares; o projeto tem finalidade educacional.
+
+## 📌 Próximos passos
+
+Revisar acessibilidade, testar o layout em telas de diferentes tamanhos e adicionar uma captura real da interface ao README.
